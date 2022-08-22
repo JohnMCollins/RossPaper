@@ -1,0 +1,1 @@
+daylcurves_prune.py --days 710:1010 A0noCD.txt|REMGEOMFMT=aapaper daylcurves_data.py --lstyle none --ecol b --ylab 'Magnitude' --xlab 'Days from 25 Jan 2003' --out asaslcurve.png

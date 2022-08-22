@@ -1,0 +1,1 @@
+daylcurves_prune.py --days 710:1010 A0noCD.txt|REMGEOMFMT=aapaper LombScargle --min 1 --max 10 --noph --np 2 --prec --out asaspgram.png

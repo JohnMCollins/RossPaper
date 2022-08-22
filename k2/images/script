@@ -1,0 +1,50 @@
+ 2028  daylcurves_prune.py --day 40:  MAST_2022-06-18T1244.txt |daylcurves_data.py --ls none
+ 2029  REMGEOMFMT=aapaper daylcurves_prune.py --day 40: --nstd 1 MAST_2022-06-18T1244.txt |daylcurves_data.py --ls none
+ 2030  less /home/jmc/lib/pythonlib/remgeom.py 
+ 2031  setgeom.py 
+ 2032  REMGEOMFMT=aapaper daylcurves_prune.py --day 40: --nstd 1 MAST_2022-06-18T1244.txt |daylcurves_data.py --ls none
+ 2033  REMGEOMFMT=aapaper daylcurves_prune.py --day 40: --nstd 1 MAST_2022-06-18T1244.txt |daylcurves_data.py --ls none --out p.png
+ 2034  file p.png
+ 2035  setgeom
+ 2036* 
+ 2037  daylcurves_prune.py --day 40: --nstd 1 MAST_2022-06-18T1244.txt |REMGEOMFMT=aapaper daylcurves_data.py --ls none --out p.png
+ 2038  file p.png
+ 2039  eog p.png
+ 2040  daylcurves_prune.py --day 40: --nstd 1 MAST_2022-06-18T1244.txt |REMGEOMFMT=aapaper daylcurves_data.py --out p.png
+ 2041  eog p.png
+ 2042  daylcurves_prune.py --day 40:  MAST_2022-06-18T1244.txt |REMGEOMFMT=aapaper daylcurves_data.py --out p.png
+ 2043  eog p.png
+ 2044  daylcurves_prune.py --day 40: --nstd 1 MAST_2022-06-18T1244.txt |LombScargle --min 2 --max 5 --nop --np 3
+ 2045  daylcurves_prune.py --day 40: --nstd 1 MAST_2022-06-18T1244.txt |LombScargle --min 2 --max 10 --nop 
+ 2046  ls
+ 2047  cd M
+ 2048  ls
+ 2049  ianac
+ 2050  daylcurves_prune.py --day 40:  MAST_2022-06-18T1244.txt |REMGEOMFMT=aapaper daylcurves_data.py 
+ 2051  up
+ 2052  daylcurves_prune.py --day 40:  MAST_2022-06-18T1244.txt |REMGEOMFMT=aapaper daylcurves_data.py 
+ 2053  daylcurves_prune.py --day 40:  MAST_2022-06-18T1244.txt |REMGEOMFMT=aapaper daylcurves_data.py --xlab 'Days from 29 Nov 2015'
+ 2054  Gsetgeom.py 
+ 2055* 
+ 2056  daylcurves_prune.py --day 40:  MAST_2022-06-18T1244.txt |REMGEOMFMT=aapaper daylcurves_data.py --xlab 'Days from 29 Nov 2015' --yscale 1e6
+ 2057  daylcurves_prune.py --day 40:  MAST_2022-06-18T1244.txt |REMGEOMFMT=aapaper daylcurves_data.py --xlab 'Days from 29 Nov 2015' --yscale 1e6 --ylab 'Flux / 1E6'
+ 2058  daylcurves_prune.py --day 40:  MAST_2022-06-18T1244.txt |REMGEOMFMT=aapaper daylcurves_data.py --xlab 'Days from 29 Nov 2015' --yscale 1e6 --ylab 'Flux / 1E6' --out k2lcurve.png
+ 2059  daylcurves_prune.py --day 40:  MAST_2022-06-18T1244.txt |LombScargle --min 2 --max 10 --pr 
+ 2060  daylcurves_prune.py --day 40:  MAST_2022-06-18T1244.txt |LombScargle --min 1 --max 10 --pr 
+ 2061  daylcurves_prune.py --day 40:  MAST_2022-06-18T1244.txt |LombScargle --min 1 --max 10 --pr --np 2
+ 2062  daylcurves_prune.py --nstd 1 --day 40:  MAST_2022-06-18T1244.txt |LombScargle --min 1 --max 10 --pr --np 2
+ 2063  daylcurves_prune.py --day 40:  MAST_2022-06-18T1244.txt |LombScargle --min 1 --max 10 --pr --np 2
+ 2064  daylcurves_prune.py --day 40:  MAST_2022-06-18T1244.txt |REMGEOMFT=aapaper LombScargle --min 1 --max 10 --pr --np 2
+ 2065  setgeom.py |fgrep aapaper
+ 2066  daylcurves_prune.py --day 40:  MAST_2022-06-18T1244.txt |REMGEOMFMT=aapaper LombScargle --min 1 --max 10 --pr --np 2
+ 2067  daylcurves_prune.py --day 40:  MAST_2022-06-18T1244.txt |REMGEOMFMT=aapaper LombScargle --min 1 --max 10 --pr --np 2 --fitalpha .75
+ 2068  daylcurves_prune.py --day 40:  MAST_2022-06-18T1244.txt |REMGEOMFMT=aapaper LombScargle --min 1 --max 10 --pr --np 2 --fitalpha 0.75
+ 2069  daylcurves_prune.py --day 40:  MAST_2022-06-18T1244.txt |REMGEOMFMT=aapaper LombScargle --min 1 --max 10 --pr --np 2 --fitalpha 0.5
+ 2070  daylcurves_prune.py --day 40:  MAST_2022-06-18T1244.txt |REMGEOMFMT=aapaper LombScargle --min 1 --max 10 --pr --np 2 --scalpha 0.5
+ 2071  daylcurves_prune.py --day 40:  MAST_2022-06-18T1244.txt |REMGEOMFMT=aapaper LombScargle --min 1 --max 10 --pr --np 2 --scalpha 0.2
+ 2072  daylcurves_prune.py --day 40:  MAST_2022-06-18T1244.txt |REMGEOMFMT=aapaper LombScargle --min 1 --max 10 --pr --np 2 --scalpha 0.2 --out k2.png 
+ 2073  ls -ltr
+ 2074  mv *.png ../../../Rosspaper/k2/images/
+ 2075  history
+ 2076  history|tail -50 >../../../Rosspaper/k2/images/
+ 2077  history|tail -50 >../../../Rosspaper/k2/images/script

@@ -1,0 +1,1 @@
+daylcurves_prune.py --nstd 2  mearth.txt |REMGEOMFMT=aapaper plot_period_portions.py --wind 15 --max 10 --minp 1 --yoff .02 --out mearthw20.png

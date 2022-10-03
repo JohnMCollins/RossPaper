@@ -1,0 +1,1 @@
+daylcurves_prune.py --toflux 11 --nstd 3 --norm 1 A0noCD.txt|REMGEOMFMT=aapaper daylcurves_data.py --lstyle none --ecol b --ylab 'Magnitude' --out ../../../Rosspaper/asas/images/asasall.png

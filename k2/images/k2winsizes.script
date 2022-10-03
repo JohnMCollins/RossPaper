@@ -1,0 +1,1 @@
+daylcurves_prune.py  --days 40: MAST_2022-06-18T1244.txt|REMGEOMFMT=aapaper plot_period_winsize.py --minp 2 --maxp 10 --np 1 --xlab 'Processing window size (days)' --out k2winsizes.png 

@@ -1,0 +1,1 @@
+daylcurves_prune.py --days 40: --nstd 2 MAST_2022-06-18T1244.txt |REMGEOMFMT=aapaper LombScargle --min 1 --max 10 --np 2 --nop --fital 0 --out k2

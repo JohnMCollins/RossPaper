@@ -1,0 +1,1 @@
+REMGEOMFMT=aapaper daylcurves_data.py --ls none --ec b --ylab 'Magnitude (difference from 11.55)'  --out mearthlcurve.png  mearth.txt

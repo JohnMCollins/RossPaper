@@ -1,34 +1,107 @@
 \section{Introduction}
 \protect\label{section:intro}
 
-{\ross} is 9.6 ly distant, of spectral type M3.5. It has a reasonably high
+{\ross} is 2.976 pc distant, of spectral type M3.5. It has a reasonably high
 proper motion of $-637.02$ mas/yr in Right Ascension and  {–}191.64 mas/yr
-in Declination and a radial velocity of {–}10.7 km/s \citep{vanleeuwen07}.
+in Declination and a radial velocity of {–}10.7 km/s \citep{vanleeuwen07}. It is
+notable for its strong activity, for example in \citet{wargelin08} and it is
+well-understood that activity is associated with a fast rotation period,
+especially in \rdwarf s, for example in \citet{mohanty03}.
 
-The strong activity is noted in \citet{wargelin08}, who also quote a value for
-{\vsini} of of $3.5 \pm 0.5$ km/s obtained from \citet{johnskrull96} stating
-that the fast rotation period is indicative of an age of less than 1 Gyr.
-The period of rotation is not stated there, but if
-the radius of $0.24 \pm 0.06$ solar given in
-\citet{johnson83}\footnote{\citet{johnson83} do not explicitly state the
+As part of a project to analyse automatically-collected data from the {\rem}
+telescope in La Silla, Chile, further described below in Section
+\ref{section:rem}, which covers 3 \rdwarf s including \ross, existing data for
+those stars were studied. It appeared that there were some omissions and
+discrepancies between the various tabulations of parameters for \ross, which
+this paper seeks to address.
+
+\subsection{Data relevant to \ross}
+
+For the purposes of discussion in this paper, the following parameters for
+{\ross} are of particular interest.
+
+\begin{enumerate}
+  \item The radius.
+  \item The rotational velocity \vsini.
+  \item The rotation period.
+\end{enumerate}
+
+These are all inter-related, in that the rotational velocity (without the factor of
+the sine of the inclination) is related to the others by $v = \frac{2 \pi
+r}{t}$, where $v$ is the ``true'' rotational velocity as opposed to the
+projected rotational velocity, \vsini, $r$ is the radius and $t$ is the rotation
+period.
+
+\subsubsection{Values for radius}
+
+The radius of a star is calculated by determining the bolometric luminosity and
+the temperature and applying the black-body radiation formula $L = 4 \pi R^2
+\sigma T^4$, where L is the luminosity, which can be derived from the absolute
+magnitude, T is the temperature in {\degree}K and $\sigma$ is the
+Stephan-Boltzmann constant.
+
+A radius was previously given in \citet{pettersen80} of $1.5 \pm 0.2 \times 10^8$ m, which equates to $0.22 \pm
+0.03$\rsun. A larger radius of $0.24 \pm 0.06$ {\rsun} is given in \citet{johnson83}
+\footnote{\citet{johnson83} do not explicitly state the
 uncertainty, but gives a limit of 25\% for results not studied in more detail
-from which this uncertainty was calculated.} is assumed, this would given an
-upper limit of $3.5 \pm 1.0$ days, less if the angle of inclination was less than 90\degree, by a factor of the sine of the inclination.
+from which this uncertainty was calculated.}.
 
-There are some discrepancies in the reported values of \vsini, in that
-\citet{reiners18} report a value of $3.0 \pm 1.5$ km/s, whilst
-\citet{hojjatpanah19} report a figure of $5.20 \pm 0.91$, which would set an
-upper limit on the period of $2.3 \pm 0.9$ days.
+A much more recent study, \citet{pineda21} has proposed a radius of $0.200 \pm
+0.008$ \rsun. The discrepancies between these values are accounted for by
+refinements to the measurements of bolometric luminosity and the effective
+temperature. In the latter paper these.are given as $1.537 \pm 0.018
+\times 10^31$ erg/s\footnote{This is equivalent to $0.00402 \pm 0.00005$\lsun.}
+and $3248^{+68}_{-66}$K.
 
-Calculations of the period range from 2.857 days or 2.843 days (taken from K2
-or MEarth respectively) in \citet{newton18}, $2.87 \pm 0.01$ days in
-\citet{diezalonso19} and $4.7 \pm 2.3$ days in \citet{reiners18}. Previously,
-in \citet{jarrett76}, an activity cycle of about 2 days was reported, but
-possibly this might refer to the rotation period.
+There does appear to be considerable variation in the values for bolometric
+luminosity and/or magnitude between papers and also in the effective
+temperature, which accounts for the considerable variation in values.
 
-It would be useful to confirm or refine the figure for
-the rotation period as no planets have been reported for {\ross}
+\subsubsection{Rotational velocity \vsini}
+
+As with the radius, there is some variation in the rotational velocity \vsini.
+
+A value of $3.5 \pm 0.5$ km/s is given in \citet{johnskrull96} and quoted in
+\citet{wargelin08} who state that the fast rotation period is indicative of an
+age of less than 1 Gyr. The period of rotation is not stated there.
+\citet{reiners18} report a value for {\vsini} of $3.0 \pm 1.5$ km/s, whilst
+\citet{hojjatpanah19} report a figure of $5.20 \pm 0.91$.
+
+These figures are all obtained from spectral line broadening. It is possible
+that the star's known considerable activity might contribute to this yielding an
+overestimate.
+
+\subsubsection{Rotation period}
+
+The value of the rotational velocity sets an upper limit on the rotation period.
+If the inclination of the star is less than 90{\degree}, then the projected
+rotational velocity {\vsini} will be lower than the actual rotational velocity
+by the factor of the sine of the inclination.
+
+Using the formula $t = \frac{2 \pi r}{v}$ and assuming a radius $r$ of
+0.200\rsun, an upper limit on the rotation period is obtained of 2.891 days if
+the value of {\vsini} of 3.5 km/s is assumed, 3.373 days if 3.0 km/s is assumed
+and 1.946 days if 5.2 km/s is assumed.
+
+The literature reports varying calculations of the rotation period.
+Previously, in \citet{jarrett76}, an activity cycle of about 2 days was reported, but
+possibly this might have been confused with the rotation period. 
+A period of 2.869 days is given in \citet{kiraga07}, one of 2.857
+or 2.843 days (taken from {\ktwo} or {\MEarth} respectively) in \citet{newton18},
+$4.7 \pm 2.3$ days in \citet{reiners18}\footnote{This cannot be credible as the
+figure for {\vsini} also given by this paper of $3.0 \pm 1.5$ km/s sets an
+upper limit of the rotation period of 3.373 days.} and $2.87 \pm 0.01$ days in
+\citet{diezalonso19}, based on {\asas} data.
+
+\subsection{Aims of this study}
+
+In view of the plethora of statistics for \ross, it would be useful to confirm
+or refine the figure for the rotation period as no planets have been reported for {\ross}
 and a low inclination angle might be one of the
-reasons for the difficulty in detection. This would be indicated if a much
-shorter rotation period was detected than would be indicated by calculating the
-period from $2\pi r / v$.
+reasons for the difficulty in detection which would be indicated if the maximum
+rotation period indicated by (\vsini) was significantly more than the detected
+rotation period.
+
+As the authors were considering the visible light observations of the {\rem}
+telescope, a study of the rotation period was undertaken using the various data
+sources referred to in the above papers and the results presented herein.

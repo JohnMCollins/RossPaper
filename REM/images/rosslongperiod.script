@@ -1,0 +1,1 @@
+objflux_single.py --filt r --obj Ross154|daylcurves_prune.py --norm 100|REMGEOMFMT=aapaper LombScargle --minp 500 --maxp 2000 --np 2 --dprec 4 --out REM/images/rosslongperiod.png

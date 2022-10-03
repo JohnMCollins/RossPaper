@@ -1,0 +1,1 @@
+daylcurves_prune.py --days 40: MAST_2022-06-18T1244.txt |emulate_spots.py --timef /dev/fd/0 --gauss 1 --per 2.87 --amp 20 --pos 0 --std 4|REMGEOMFMT=aapaper LombScargle --min 1 --max 10 --np 2 --nf 0 --out k2emulated.png

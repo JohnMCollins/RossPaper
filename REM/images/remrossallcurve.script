@@ -1,0 +1,1 @@
+daylcurves_prune.py --norm 1 firstlr.txt |REMGEOMFMT=aapaper daylcurves_data.py --ls none --ylab 'Flux normalised to 1.0' --vmark 595 --vcolour g --out ~/src/astro/reports/Rosspaper/REM/images/remrossallcurve.png

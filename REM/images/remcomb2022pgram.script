@@ -1,0 +1,1 @@
+objflux_by_comparison.py --filt r --obj Ross154 B D E F|daylcurves_prune.py --days 1600: --norm 1 |REMGEOMFMT=aapaper LombScargle --minp 2.5 --maxp 5 --np 3 --toff .01 --out remcomb2022pgram.png

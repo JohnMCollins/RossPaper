@@ -1,0 +1,1 @@
+REMGEOMFMT=aapaper daylcurves_data_compare.py --ylab Intensity scaled to mean of 1 --names ASAS K2 MEarth REM r filter --dispd --out comparison.png --marker=. *.txt 
